@@ -12,9 +12,12 @@ class App extends Component {
         <h1>
           NavLink is a react router component can save a lot of time while using
           state realted to url path.
-          <br />
-          see below examples and checkout code
         </h1>
+
+        <h2>
+          Check differences of <bold>WithNavLink.js</bold> and{' '}
+          <bold>WithoutNavLink.js</bold>
+        </h2>
 
         <h2>
           <Link to="/without-nav-link">{`Tab active state without <NavLink />`}</Link>
